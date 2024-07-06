@@ -1,0 +1,192 @@
+body {
+    background-color: aqua;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    margin-bottom: 10px;
+    background-image: url(https://t4.ftcdn.net/jpg/02/92/20/37/360_F_292203735_CSsyqyS6A4Z9Czd4Msf7qZEhoxjpzZl1.jpg);
+    background-position: 40%;
+}
+
+#navbarNav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    font-weight: 900;
+    background-color: aqua;
+    border-radius: 8px;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.container p {
+    background-color: whitesmoke;
+    border-radius: 15px;
+}
+
+h1 {
+    color: #343a40;
+    font-weight: bold;
+}
+
+#addButton {
+    width: 100%;
+    font-size: 1.2em;
+}
+
+.recipe {
+    margin-bottom: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.recipe:hover {
+    transform: scale(1.05);
+}
+
+.recipe img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #6c757d;
+    margin-bottom: 15px;
+}
+
+.viewButton,
+.editButton {
+    width: 48%;
+    margin: 1%;
+}
+
+.modal-header,
+.modal-footer {
+    background-color: #f1f1f1;
+}
+
+.modal-title {
+    color: #343a40;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.btn-info:hover {
+    background-color: #117a8b;
+    border-color: #117a8b;
+}
+
+.contact-section {
+    padding: 50px;
+}
+
+.contact-form {
+    margin-left: 25%;
+    margin-top: 2%;
+    margin-right: 30%;
+    margin-bottom: 10%;
+    background-color: whitesmoke;
+    /* Darker background color for the form */
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    /* Increased shadow intensity */
+}
+
+.contact-form h1 span {
+    color: rgb(27, 136, 231);
+    font-weight: bold;
+    font-size: large;
+    margin-left: 25%;
+}
+
+.form-title {
+    margin-left: 55%;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.form-input {
+    width: 80%;
+    padding: 15px;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    border: 1px solid #555;
+    /* Darker border color */
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+    background-color: #2322225f;
+    /* Darker input background color */
+    color: #fff;
+    /* Light text color */
+    align-content: center;
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: #007bff;
+    /* Accent color */
+}
+
+.form-btn {
+    padding: 15px 30px;
+    background-color: #007bff;
+    margin-left: 30%;
+    /* Accent color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-btn:hover {
+    background-color: #007bff;
+    /* Darker accent color on hover */
+}
+
+.h-captcha {
+    margin-left: 10%;
+}
+
+#aboutus {
+    padding: 50px;
+}
+
+.para {
+    margin-bottom: 3%;
+    padding: 3%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
